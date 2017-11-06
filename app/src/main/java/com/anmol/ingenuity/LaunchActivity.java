@@ -1,6 +1,7 @@
 package com.anmol.ingenuity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -37,8 +38,12 @@ public class LaunchActivity extends AppCompatActivity {
                 break;
             }
             case R.id.squads: {
+
+                Intent facebookIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://docs.google.com/forms/d/e/1FAIpQLScMnE-1Vq82igDOp3CcF3ysrosxHF9rHd-Ty3W_hwBaM8TcDg/viewform"));
+                startActivity(facebookIntent);
+                /*
                 Intent squadintent = new Intent(this, squads.class);
-                startActivity(squadintent);
+                startActivity(squadintent);*/
                 break;
             }
             case R.id.tickets: {

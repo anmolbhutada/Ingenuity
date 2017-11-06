@@ -39,3 +39,4 @@ public class splash extends AppCompatActivity {
         splash.this.finish();
     }
 }
+

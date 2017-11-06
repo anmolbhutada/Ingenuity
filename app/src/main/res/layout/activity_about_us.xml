@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.anmol.ingenuity.aboutUs">
 
     <android.support.v7.widget.Toolbar
@@ -26,4 +27,15 @@
             android:textSize="30sp"/>
     </android.support.v7.widget.Toolbar>
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:padding="50dp"
+        android:text="ingeNUity is the annual techno-cultural fest of NIIT University, Neemrana held in the first quarter of each year!
+With a footfall of thousands and over forty events spread over 3 days, this festival promises to offer you a memorable experience!
+"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</LinearLayout>

@@ -27,5 +27,117 @@
             android:textSize="30sp"/>
     </android.support.v7.widget.Toolbar>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="5"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/naman"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_marginTop="10dp" />
+            <TextView
+                android:id="@+id/textnaman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Naman Shah"
+                android:layout_marginLeft="15dp"
+                android:textSize="32sp"
+                android:textIsSelectable="true"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/saloni"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_marginTop="10dp" />
+            <TextView
+                android:id="@+id/textsaloni"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Saloni Sachdeva"
+                android:layout_marginLeft="15dp"
+                android:textSize="32sp"
+                android:textIsSelectable="true"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/ojaswi"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_marginTop="10dp" />
+            <TextView
+                android:id="@+id/textojaswi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Ojaswi Bhalerao"
+                android:layout_marginLeft="15dp"
+                android:textSize="32sp"
+                android:textIsSelectable="true"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/tulika"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_marginTop="10dp" />
+            <TextView
+                android:id="@+id/texttulika"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Tulika Singh"
+                android:layout_marginLeft="15dp"
+                android:textSize="32sp"
+                android:textIsSelectable="true"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/pavan"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_marginTop="10dp" />
+            <TextView
+                android:id="@+id/textpavan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Ch Pavan Sai"
+                android:layout_marginLeft="15dp"
+                android:textSize="32sp"
+                android:textIsSelectable="true"/>
+        </LinearLayout>
+    </LinearLayout>
 
 </LinearLayout>
